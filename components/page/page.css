@@ -4,7 +4,7 @@
     max-height: 100%;
 }
 .header {
-    padding: 96px 0px 96px 160px;
+    padding: 96px 0 96px 0;
 }
 .header__title {
    
@@ -16,7 +16,11 @@ line-height: 64px;
 
 }
 .content {
-    height: 1036px;
+    height: 500px;
+    background-color:#F9FAFC;
+    border-top: 1px solid#DDE2E5;
+    border-color: 1px solid#DDE2E5;
+    
 }
 .footer { 
     padding: 72px 136px;
