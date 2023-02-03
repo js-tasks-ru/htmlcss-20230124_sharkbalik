@@ -23,6 +23,23 @@ transition: background-color 0.3s linear 0s;
     
 }
 
+
+.button_alternate {
+    color: #495057;
+    background-color: #ffffff;
+    border: 1px solid #ACB5BD;
+    transition: border-color 0.3s linear 0s
+
+}
+.button_alternate:hover {
+    border-color: #212429;
+
+} 
+
+
+
+
+
 .button_primary {
     color: #ffffff;
     background-color:  #4263EB;
