@@ -1,1 +1,21 @@
 /* Стилизация аккордеона */
+
+
+
+
+deteils > summary { 
+    padding: 4px;
+    width: 200px;
+    background-color: #bbbbbb;
+    border: none;
+    box-shadow: 1px 1px 2px #000000;
+    cursor: pointer;
+
+}
+details > p  {
+ 
+  background-color: #ffffff;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
