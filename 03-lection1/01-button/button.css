@@ -1,5 +1,5 @@
 /* Стилизация кнопки */
-.button_general{
+.button{
 border-radius: 8px;
 font-family: Roboto;
 font-size: 16px;
@@ -27,7 +27,7 @@ transition: background-color 0.3s linear 0s;
 
 }
 
-.button_secondary-disabled:disabled {
+.button_secondary-defect:disabled {
     opacity: 0.5;
     background-color:#7048E8;
     color: #ffffff;
@@ -49,7 +49,7 @@ transition: background-color 0.3s linear 0s;
 
 }
 
-.button_primary-disabled {
+.button_primary-defect:disabled {
     color: #ffffff;
     background-color: #4263EB;
     opacity: 0.5;
@@ -76,7 +76,7 @@ transition: background-color 0.3s linear 0s;
 
 } 
 
-.button_alternate-disabled:disabled {
+.button_alternate-defect:disabled {
     color: #495057;
     border: 1px solid#ACB5BD;
     opacity: 0.5;
