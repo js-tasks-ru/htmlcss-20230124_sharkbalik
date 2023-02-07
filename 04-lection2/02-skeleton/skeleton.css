@@ -1,0 +1,47 @@
+.skeleton {
+display: inline-block;
+border: 1px solid #ACB5BD;
+border-radius: 8px;
+padding: 24px 40px 32px 24px;
+}
+.skeleton__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.skeleton__icon {
+
+    height: 64px;
+    width: 64px;
+    margin-right: 16px;
+    border-radius: 50px;
+    background-color: #DDE2E5;
+}
+.skeleton__blok {
+    
+}
+.skeleton__title {
+    height: 20px;
+    width: 172px;
+background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+   
+}
+.skeleton__text {
+    margin-top: 8px;
+ height: 20px;
+    width: 257px;
+background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+.description__band {
+    height: 20px;
+       width: 515px;
+   background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+   }
+
+.band_top {
+margin-bottom: 8px;
+}
+    
+.band_bottom {
+ 
+}
