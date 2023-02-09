@@ -4,7 +4,8 @@
 
 details {
   border-radius: 8px;
-  padding: 24px 228px 24px 32px;
+  padding: 24px 32px 24px 32px;
+  display: block;
 
 }
 
