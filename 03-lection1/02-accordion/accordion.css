@@ -20,7 +20,10 @@ line-height: 24px;
 
 
 }
-
+ 
+.summary__content {
+margin-top: 16px;
+}
 
 .accordion__summary { 
   cursor: pointer;
@@ -43,7 +46,7 @@ line-height: 24px;
 }
 .accordion__item[open] {
   padding: 24px 48px 32px 32px ;
-  padding-bottom: 16px;
+  padding-bottom: 32px;
 }
 
 
