@@ -9,6 +9,9 @@ padding: 15px 58px 14px 58px;
 border: none;
 
 }
+.button:disabled {
+     pointer-events: none; opacity: 0.5; 
+    }
 
 .button_secondary{
 color: #ffffff;
@@ -27,13 +30,6 @@ transition: background-color 0.3s linear 0s;
 
 }
 
-.button_secondary-defect:disabled {
-    opacity: 0.5;
-    background-color:#7048E8;
-    color: #ffffff;
-}
-
-
 .button_primary {
     color: #ffffff;
     background-color:  #2342C0;
@@ -46,16 +42,6 @@ transition: background-color 0.3s linear 0s;
 }
 .button_primary:active {
     background-color: #2342C0;
-
-}
-
-.button_primary-defect:disabled {
-    color: #ffffff;
-    background-color: #4263EB;
-    opacity: 0.5;
-
-
-    
 
 }
 
@@ -75,10 +61,3 @@ transition: background-color 0.3s linear 0s;
     color: #212429;
 
 } 
-
-.button_alternate-defect:disabled {
-    color: #495057;
-    border: 1px solid#ACB5BD;
-    opacity: 0.5;
-
-}
