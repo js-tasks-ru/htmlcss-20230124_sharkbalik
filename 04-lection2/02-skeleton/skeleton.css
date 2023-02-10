@@ -23,12 +23,12 @@ padding: 24px 40px 32px 24px;
     margin-left: 16px;
 }
 .skeleton__line_date {
-   max-width: 257px;
+   width: 40%;
   
 }
 
 .skeleton__line_name {
-   max-width: 172px;
+   width: 35%;
 }
 
 
