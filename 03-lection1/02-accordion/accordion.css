@@ -1,15 +1,6 @@
 /* Стилизация аккордеона */
 
 
-
-details {
-  border-radius: 8px;
-  padding: 24px 32px 24px 32px;
-  display: block;
-
-}
-
-
 .accordion {
  
 font-family: Inter;
@@ -39,6 +30,9 @@ margin-top: 16px;
 
 
 .accordion__item {
+  border-radius: 8px;
+  padding: 24px 32px 24px 32px;
+  display: block;
   color:  #495057;
   border: 1px solid #ACB5BD;
   margin-bottom: 8px;
