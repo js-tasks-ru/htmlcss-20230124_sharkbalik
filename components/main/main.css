@@ -6,7 +6,7 @@
     padding: 67px 0 204px;
     
 }
-.content__cards_list  {
+.content__cards-list  {
     display:flex;
     gap: 30px;
     flex-wrap: wrap;
