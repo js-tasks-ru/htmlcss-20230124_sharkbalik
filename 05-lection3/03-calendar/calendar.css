@@ -7,7 +7,7 @@
     max-width: 350px;
 }
 
-.calendar_title {
+.calendar__title {
 text-align: center;
 font-family: 'Inter';
 font-style: normal;
@@ -16,11 +16,11 @@ font-size: 20px;
 color: #334D6E;
 margin-bottom: 24px;
 }
-.calendar_wrapper {
+.calendar__wrapper {
     position: relative;
     padding-bottom: 100%;
 }
-.calendar_linner {
+.calendar__linner {
     position: absolute;
     top: 0;
     left:0;
@@ -31,7 +31,7 @@ margin-bottom: 24px;
     grid-template-rows: repeat(7, 1fr);
     
 }
-.calendar_item {
+.calendar__item {
 display: flex;
 justify-content: center;
 align-items: center;
