@@ -4,21 +4,21 @@
     display: inline-block;
     position: relative;
 }
-.tooltip_trigger {
+.tooltip__trigger {
     margin-top: 150px;
     
 }
-.tooltip_bubble:before{
+.tooltip__bubble:before{
     content: "";
     border: 10px solid transparent;
     border-top-color: #4263EB;
     position: absolute;
-    bottom: -45%;
+    bottom: calc(100% - 63px);
     left:50%;
     transform: translateX(-50%);
 }
 
-.tooltip_bubble {
+.tooltip__bubble {
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -37,6 +37,6 @@ transform: translateX(-50%);
 white-space: nowrap;
 }
 
-.tooltip_trigger:hover ~ .tooltip_bubble{
+.tooltip__trigger:hover ~ .tooltip__bubble{
     display: block;
 }
