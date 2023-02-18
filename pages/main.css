@@ -1,0 +1,12 @@
+@import '../pages/css/style.css';
+
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+html,body{
+    height: 100%;
+}
