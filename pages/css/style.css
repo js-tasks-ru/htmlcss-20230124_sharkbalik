@@ -23,6 +23,7 @@
     
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0;
 }
     
 .content {
@@ -31,6 +32,7 @@
     grid-template-columns: auto 1fr ;
     grid-column-gap: 56px;
     grid-area: main;
+    background-color: #DDE2E5;
    
 
    
@@ -42,7 +44,7 @@
     flex-direction: column;
     
 }
-.component__description{
+.content__cards-list{
     width: 100%;
     max-width: 740px;
     background-color: #ffffff;
@@ -58,7 +60,7 @@ font-size: 28px;
 line-height: 38px;
 color: #495057;
 margin-left: 48px;
-
+margin-top: 32px;
 
 }
 .footer {
@@ -67,14 +69,16 @@ margin-left: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    grid-area: footer;
+}
+.footer__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
      font-size: 12px;
     line-height: 18px; 
     color:#ACB5BD;
-    padding: 0;
-    grid-area: footer;
 }
 
 .content__menu_title {
