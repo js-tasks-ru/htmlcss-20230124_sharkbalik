@@ -4,7 +4,7 @@
     border:1px solid var(--grey-3);
     padding: 28px 36px;
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .calendar__title {
