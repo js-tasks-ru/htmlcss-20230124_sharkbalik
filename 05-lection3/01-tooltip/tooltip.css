@@ -5,15 +5,14 @@
     position: relative;
 }
 .tooltip__trigger {
-    margin-top: 150px;
     
 }
 .tooltip__bubble:before{
     content: "";
     border: 10px solid transparent;
-    border-top-color: #4263EB;
+    border-bottom-color: #4263EB;
     position: absolute;
-    bottom: calc(100% - 63px);
+    bottom: 100%;
     left:50%;
     transform: translateX(-50%);
 }
