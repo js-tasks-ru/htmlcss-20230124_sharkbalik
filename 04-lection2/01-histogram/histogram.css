@@ -1,8 +1,6 @@
 
 
 .histogram {
-<
-
 border: 1px solid var( --grey-3);
 border-radius: 8px;
 padding: 16px 24px 24px 24px;
@@ -48,13 +46,16 @@ width: 350px;
 
 .histogram__chart-line_full {
     height: 100%;
+    
 }
 
 .histogram__chart-line_medium {
     height: 50%;
+    
 }
 
 .histogram__chart-line_small {
     height: 30%;
+    
 
 }
