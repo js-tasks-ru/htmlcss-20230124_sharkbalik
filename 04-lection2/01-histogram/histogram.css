@@ -32,30 +32,30 @@ width: 350px;
 .histogram__chart {
     align-items: flex-end;
     display: flex;
+    height: 39px;
     padding: 0px 2px;
     margin-top: 81px;
     
 }
 .histogram__chart-line {
-
-    flex-grow: 1;
-
     flex-basis: 9px;
     background-color: var(--blue);
 }
 
 .histogram__chart-line_full {
     height: 100%;
-    
+    flex-grow: 1;
 }
 
 .histogram__chart-line_medium {
     height: 50%;
+    flex-grow: 1;
     
 }
 
 .histogram__chart-line_small {
     height: 30%;
+    flex-grow: 2;
     
 
 }
