@@ -5,6 +5,7 @@
 @import '../../components/footer/footer.css';
 @import '../../components/page/page.css';
 @import '../../components/conteiner/conteiner.css';
+@import '../../components/card/card.css';
 
 
 
@@ -29,4 +30,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+.html,body {
+    height: 100%;
+
 }

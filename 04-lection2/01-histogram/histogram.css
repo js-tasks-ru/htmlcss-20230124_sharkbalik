@@ -1,6 +1,7 @@
 
 
 .histogram {
+<
 
 border: 1px solid var( --grey-3);
 border-radius: 8px;
@@ -10,6 +11,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 width: 350px;
+
 }
 
 .histogram__header {
@@ -26,33 +28,33 @@ width: 350px;
     color: var(--black);
 }
 .histogram__view {
+
     color: var( --blue);
 }
 .histogram__chart {
     align-items: flex-end;
     display: flex;
-    height: 39px;
     padding: 0px 2px;
     margin-top: 81px;
     
 }
 .histogram__chart-line {
+
     flex-grow: 1;
+
     flex-basis: 9px;
     background-color: var(--blue);
 }
 
 .histogram__chart-line_full {
     height: 100%;
-    
 }
 
 .histogram__chart-line_medium {
     height: 50%;
-    
 }
 
 .histogram__chart-line_small {
     height: 30%;
-    
+
 }

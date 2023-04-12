@@ -1,0 +1,47 @@
+.skeleton {
+border: 1px solid #ACB5BD;
+border-radius: 8px;
+padding: 24px 40px 32px 24px;
+}
+.skeleton__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.skeleton__icon {
+    flex-shrink: 0;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #DDE2E5;
+}
+
+.skeleton__title {
+    flex-shrink:1;
+    flex-basis: 100%;
+    margin-left: 16px;
+}
+.skeleton__line_date {
+   width: 40%;
+  
+}
+
+.skeleton__line_name {
+   width: 35%;
+}
+
+
+.skeleton__line {
+    height: 20px;
+    max-width: 100%;
+    margin-bottom: 8px;
+background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+   
+}
+
+.skeleton__line:last-child{
+   margin-bottom: 0px;
+
+}
+
