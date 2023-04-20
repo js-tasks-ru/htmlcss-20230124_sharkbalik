@@ -3,16 +3,16 @@
     position: relative;
 }
 .checkbox__input {
-display: none;
 position: absolute;
 outline: none;
+clip: rect(0,0,0,0);
 }
 .checkbox__state {
     display: inline-flex;
     align-items: center;
-    gap: 12;
+    gap: 12px;
     cursor: pointer;
-    clip: rect(0,0,0,0);
+    
 
 }
 .checkbox__control {
@@ -42,6 +42,7 @@ color: #495057;
     border-color: #4263EB;
 }
 
-.checkbox__input:control ~ .checkbox__state .checkbox__text {
+.checkbox__input:focus ~ .checkbox__state .checkbox__title {
     text-decoration: underline;
 }
+
